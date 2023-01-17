@@ -1,0 +1,522 @@
+@font-face {
+  font-family: 'Abuget';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/webfonts/Abuget.woff') format('woff');
+  src: url('/webfonts/Abuget.woff2') format('woff2');
+  src: url('/webfonts/Abuget.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'conthrax';
+  font-style: normal;
+  font-weight: bold;
+  src: url('/webfonts/conthrax-sb.woff') format('woff');
+  src: url('/webfonts/conthrax-sb.woff2') format('woff2');
+  src: url('/webfonts/conthrax-sb.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'kenyan coffee';
+  font-style: normal;
+  font-weight: bold;
+  src: url('/webfonts/kenyan coffee bd.woff') format('woff');
+  src: url('/webfonts/kenyan coffee bd.woff2') format('woff2');
+  src: url('/webfonts/kenyan coffee bd.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'kenyan coffee';
+  font-style: italic;
+  font-weight: bold;
+  src: url('/webfonts/kenyan coffee bd it.woff') format('woff');
+  src: url('/webfonts/kenyan coffee bd it.woff2') format('woff2');
+  src: url('/webfonts/kenyan coffee bd it.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'kenyan coffee';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/webfonts/kenyan coffee rg.woff') format('woff');
+  src: url('/webfonts/kenyan coffee rg.woff2') format('woff2');
+  src: url('/webfonts/kenyan coffee rg.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'kenyan coffee';
+  font-style: italic;
+  font-weight: normal;
+  src: url('/webfonts/kenyan coffee rg it.woff') format('woff');
+  src: url('/webfonts/kenyan coffee rg it.woff2') format('woff2');
+  src: url('/webfonts/kenyan coffee rg it.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Perfect DOS VGA 437';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/webfonts/Perfect DOS VGA 437.woff') format('woff');
+  src: url('/webfonts/Perfect DOS VGA 437.woff2') format('woff2');
+  src: url('/webfonts/Perfect DOS VGA 437.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Perfect DOS VGA 437 Win';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/webfonts/Perfect DOS VGA 437 Win.woff') format('woff');
+  src: url('/webfonts/Perfect DOS VGA 437 Win.woff2') format('woff2');
+  src: url('/webfonts/Perfect DOS VGA 437 Win.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Reey';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/webfonts/Reey-Regular.woff') format('woff');
+  src: url('/webfonts/Reey-Regular.woff2') format('woff2');
+  src: url('/webfonts/Reey-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'vipnagorgialla';
+  font-style: italic;
+  font-weight: bold;
+  src: url('/webfonts/vipnagorgialla bd it.woff') format('woff');
+  src: url('/webfonts/vipnagorgialla bd it.woff2') format('woff2');
+  src: url('/webfonts/vipnagorgialla bd it.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'vipnagorgialla';
+  font-style: normal;
+  font-weight: bold;
+  src: url('/webfonts/vipnagorgialla bd.woff') format('woff');
+  src: url('/webfonts/vipnagorgialla bd.woff2') format('woff2');
+  src: url('/webfonts/vipnagorgialla bd.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'vipnagorgialla';
+  font-style: italic;
+  font-weight: normal;
+  src: url('/webfonts/vipnagorgialla rg it.woff') format('woff');
+  src: url('/webfonts/vipnagorgialla rg it.woff2') format('woff2');
+  src: url('/webfonts/vipnagorgialla rg it.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'vipnagorgialla';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/webfonts/vipnagorgialla rg.woff') format('woff');
+  src: url('/webfonts/vipnagorgialla rg.woff2') format('woff2');
+  src: url('/webfonts/vipnagorgialla rg.ttf') format('ttf');
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body, html {
+  height: 100%;
+}
+
+.Abuget_font {
+  font-family: Abuget, serif;
+}
+
+.conthrax_font {
+  font-family: conthrax, serif;
+}
+
+.kenyancoffee_font {
+  font-family: "kenyan coffee", serif;
+}
+
+.Perfect_DOS_VGA_437_Win_font {
+  font-family: "Perfect DOS VGA 437 Win", serif;
+}
+
+.Reey_font {
+  font-family: Reey, serif;
+}
+
+.vipnagorgialla_font {
+  font-family: vipnagorgialla, serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.color_grey {
+  color: #d9d0d4;
+}
+
+.color_yellow {
+  color: #a88d47;
+}
+
+.color_bordo {
+  color: #3d1a2a;
+}
+
+.pattern_bottom {
+  background: url(/images/synt_5.jpg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(217, 208, 212, 0.6);
+}
+
+.pattern_top {
+  background: url(/images/synt_1.jpg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgb(61, 26, 42, 0.5);
+}
+
+.parent {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-image: radial-gradient(circle at top, rgba(255, 255, 255, 0.6082808123249299) 30%, rgba(0, 0, 0, 0.6026785714285714) 78%, rgba(0, 0, 0, 0.8855917366946778) 87%, rgba(0, 0, 0, 1) 100%),
+  url(/images/back_center.jpg), url(/images/noise.jpg);
+  //background-image: url("/images/background63.jpg"), url(/images/back.jpg);
+  background-blend-mode: overlay, multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex: 0 0 auto;
+}
+
+.no_scroll {
+  overflow: hidden;
+}
+
+.disabled {
+  display: none;
+}
+
+.container {
+  border-radius: 20px;
+  box-shadow: 0 5px 25px rgb(255 255 255 / 20%);
+  display: flex;
+  flex-direction: column;
+  min-width: 656px;
+  background-image: url(/images/textura.png), url(/images/eff_1_center.png), url(/images/back_center.jpg);
+  //background-image: url(/images/noise.jpg), url(/images/textura.png), url(/images/eff_1_center.png), url(/images/back_center.jpg);
+  background-blend-mode: color-burn;
+  //background-blend-mode: overlay, multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  //height: 90vh;
+  //width: 70vh;
+  height: 843px;
+  padding-top: 80px;
+  position: relative;
+}
+
+#eff_2, #eff_tex {
+  position: absolute;
+  top: 0;
+  width: 656px;
+  z-index: 2;
+  border-radius: 20px;
+}
+
+#eff_tex {
+  z-index: 5;
+  opacity: 0.4;
+  mix-blend-mode: color-burn;
+}
+
+.display_row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.display_col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.car {
+  background-image: url(/images/car.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+  //margin-top: 43px;
+  margin-top: 5vh;
+}
+
+#top {
+  width: 64%;
+  margin: 0 auto;
+  //row-gap: 9px;
+}
+
+#top_1, #top_3, #top_4, #top_6 {
+  width: 100%;
+}
+
+#top_1_right {
+  justify-content: flex-end;
+}
+
+.top_1_left, .top_1_right, #top_3_2, #top_3_3 {
+  display: flex;
+  flex: 1 0 auto;
+}
+
+#top_3 {
+  margin-top: 9px;
+}
+
+#top_3_1 {
+  display: flex;
+  font-size: 0.85rem;
+}
+
+#top_3_2 {
+  font-size: 0.67rem;
+  margin-left: 8px;
+}
+
+#top_3_3 {
+  justify-content: flex-end;
+  font-size: 1.5rem;
+  transform: translateY(-8px);
+  -webkit-text-stroke: 1px black;
+  -webkit-text-fill-color: transparent;
+}
+
+#top_4 {
+  font-size: 2.1rem;
+  transform: translateY(-20px);
+  margin-top: 8px;
+
+}
+
+#top_5 {
+  display: flex;
+  letter-spacing: 8.5px;
+  font-size: 10px;
+  align-self: stretch;
+  transform: translateY(-15px);
+}
+
+#top_6 {
+  align-items: unset;
+}
+
+#top_6_1 {
+  align-items: flex-start;
+}
+
+#top_6_1_1 {
+  background-image: url(/images/your_picture.jpg), url(/images/your_picture_filter.png);
+  background-blend-mode: color-dodge;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 120px;
+  height: 170px;
+  opacity: 0.7;
+}
+
+.top_6_1_2 {
+  opacity: 0.3;
+}
+
+#top_6_1_2_p1 {
+  font-size: 18px;
+}
+
+#top_6_1_2_p1 + p {
+  font-size: 9px;
+}
+
+#top_6_2 {
+  font-size: 12px;
+  text-align: end;
+  flex: 1 0 auto;
+  line-height: 10px;
+  padding-top: 4px;
+  opacity: 0.4;
+}
+
+#bottom_6_3, #bottom_6_4, #bottom_6_5 {
+  justify-content: flex-end;
+}
+
+#bottom_6_3_1 {
+  margin-right: 3px;
+}
+
+#bottom_6_4_1 {
+  margin-right: 10px;
+}
+
+#bottom_6_5_1 {
+  margin-right: 70px;
+}
+
+
+.bottom_8 {
+  display: flex;
+  flex-direction: column;
+}
+
+#bottom_8_1 {
+  margin-top: 13px;
+}
+
+.hr-line {
+  margin: 5px 0;
+  padding: 0;
+  height: 0;
+  border: none;
+  border-top: 10px solid #d9d0d4;
+  width: 97px;
+}
+
+.bottom_8_1_1 {
+  display: flex;
+  flex-direction: column;
+}
+
+#bottom_8_1_2 {
+  font-size: 72px;
+  margin: 0 19px;
+  padding-top: 5px;
+  //background: url(/images/synt_5.jpg);
+  //-webkit-background-clip: text;
+  //-webkit-text-fill-color: rgba(217,208,212,0.6);
+}
+
+#bottom_9 {
+  width: 64%;
+  margin: 0 auto;
+}
+
+#bottom_9_1 {
+  font-size: 19px;
+  transform: translateY(-5px);
+  //background: url(/images/synt_5.jpg);
+  //-webkit-background-clip: text;
+  //-webkit-text-fill-color: rgba(217,208,212,0.6);
+}
+
+#bottom_9_2 {
+  font-size: 9px;
+  transform: translateY(-5px);
+  //background: url(/images/synt_5.jpg);
+  //-webkit-background-clip: text;
+  //-webkit-text-fill-color: rgba(217,208,212,0.6);
+}
+
+#bottom_9_3_2 {
+  font-size: 12px;
+  //margin: 0 10px;
+}
+
+#bottom_9_3_1 {
+  letter-spacing: 8.5px;
+  font-size: 10px;
+}
+
+#bottom_9_3_3 {
+  letter-spacing: 8.5px;
+  font-size: 10px;
+  transform: translateX(10px);
+}
+
+
+#bottom_9_3 {
+  margin-top: 8px;
+}
+
+#bottom_9_4 {
+  font-size: 17px;
+  transform: translateY(-6px);
+  height: 16px;
+}
+
+#bottom_9_5_1 {
+  align-items: unset;
+  column-gap: 5px;
+}
+
+#bottom_9_5_1_2 {
+  width: 20px;
+  row-gap: 6px;
+}
+
+#bottom_9_5_1_1 {
+  font-size: 40px;
+  transform: translate(35px, -26px);
+}
+
+#bottom_9_5_3_1 {
+  font-size: 40px;
+  transform: translate(-28px, -26px);
+}
+
+#bottom_9_5_1_2_1 {
+  font-size: 5px;
+}
+
+.bottom_9_5_2 {
+  width: 367px;
+  height: 68px;
+  background-image: url(/images/tape.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 13px;
+  z-index: 5;
+  transform: translate(5px, 0px);
+}
+
+#bottom_9_5_3 {
+  column-gap: 5px;
+}
+
+#bottom_9_5_1_2 {
+  transform: translate(40px, -17px);
+}
+
+#bottom_9_5_3_2 {
+  transform: translate(-28px, -18px);
+}
+
+#bottom_9_5_1_tr {
+  display: inline-block;
+  border: 9px solid transparent;
+  border-top: 15px solid #a88d47;
+}
+
+#top_1, #top_3, #top_4, #top_5, #bottom_8, #bottom_9_1, #bottom_9_2, #bottom_9_3, #bottom_9_4, #bottom_9_5_1, #bottom_9_5_3, {
+  opacity: 0.5;
+}
