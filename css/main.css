@@ -2,105 +2,79 @@
   font-family: "Abuget";
   font-style: normal;
   font-weight: normal;
-  src: url("/webfonts/Abuget.woff") format("woff");
-  src: url("/webfonts/Abuget.woff2") format("woff2");
-  src: url("/webfonts/Abuget.ttf") format("ttf");
+  src: url("/webfonts/Abuget.woff") format("woff"), url("/webfonts/Abuget.woff2") format("woff2"), url("/webfonts/Abuget.ttf") format("ttf");
 }
 @font-face {
   font-family: "conthrax";
   font-style: normal;
   font-weight: bold;
-  src: url("/webfonts/conthrax-sb.woff") format("woff");
-  src: url("/webfonts/conthrax-sb.woff2") format("woff2");
-  src: url("/webfonts/conthrax-sb.ttf") format("ttf");
+  src: url("/webfonts/conthrax-sb.woff") format("woff"), url("/webfonts/conthrax-sb.woff2") format("woff2"), url("/webfonts/conthrax-sb.ttf") format("ttf");
 }
 @font-face {
   font-family: "kenyan coffee";
   font-style: normal;
   font-weight: bold;
-  src: url("/webfonts/kenyan coffee bd.woff") format("woff");
-  src: url("/webfonts/kenyan coffee bd.woff2") format("woff2");
-  src: url("/webfonts/kenyan coffee bd.ttf") format("ttf");
+  src: url("/webfonts/kenyan coffee bd.woff") format("woff"), url("/webfonts/kenyan coffee bd.woff2") format("woff2"), url("/webfonts/kenyan coffee bd.ttf") format("ttf");
 }
 @font-face {
   font-family: "kenyan coffee";
   font-style: italic;
   font-weight: bold;
-  src: url("/webfonts/kenyan coffee bd it.woff") format("woff");
-  src: url("/webfonts/kenyan coffee bd it.woff2") format("woff2");
-  src: url("/webfonts/kenyan coffee bd it.ttf") format("ttf");
+  src: url("/webfonts/kenyan coffee bd it.woff") format("woff"), url("/webfonts/kenyan coffee bd it.woff2") format("woff2"), url("/webfonts/kenyan coffee bd it.ttf") format("ttf");
 }
 @font-face {
   font-family: "kenyan coffee";
   font-style: normal;
   font-weight: normal;
-  src: url("/webfonts/kenyan coffee rg.woff") format("woff");
-  src: url("/webfonts/kenyan coffee rg.woff2") format("woff2");
-  src: url("/webfonts/kenyan coffee rg.ttf") format("ttf");
+  src: url("/webfonts/kenyan coffee rg.woff") format("woff"), url("/webfonts/kenyan coffee rg.woff2") format("woff2"), url("/webfonts/kenyan coffee rg.ttf") format("ttf");
 }
 @font-face {
   font-family: "kenyan coffee";
   font-style: italic;
   font-weight: normal;
-  src: url("/webfonts/kenyan coffee rg it.woff") format("woff");
-  src: url("/webfonts/kenyan coffee rg it.woff2") format("woff2");
-  src: url("/webfonts/kenyan coffee rg it.ttf") format("ttf");
+  src: url("/webfonts/kenyan coffee rg it.woff") format("woff"), url("/webfonts/kenyan coffee rg it.woff2") format("woff2"), url("/webfonts/kenyan coffee rg it.ttf") format("ttf");
 }
 @font-face {
   font-family: "Perfect DOS VGA 437";
   font-style: normal;
   font-weight: normal;
-  src: url("/webfonts/Perfect DOS VGA 437.woff") format("woff");
-  src: url("/webfonts/Perfect DOS VGA 437.woff2") format("woff2");
-  src: url("/webfonts/Perfect DOS VGA 437.ttf") format("ttf");
+  src: url("/webfonts/Perfect DOS VGA 437.woff") format("woff"), url("/webfonts/Perfect DOS VGA 437.woff2") format("woff2"), url("/webfonts/Perfect DOS VGA 437.ttf") format("ttf");
 }
 @font-face {
   font-family: "Perfect DOS VGA 437 Win";
   font-style: normal;
   font-weight: normal;
-  src: url("/webfonts/Perfect DOS VGA 437 Win.woff") format("woff");
-  src: url("/webfonts/Perfect DOS VGA 437 Win.woff2") format("woff2");
-  src: url("/webfonts/Perfect DOS VGA 437 Win.ttf") format("ttf");
+  src: url("/webfonts/Perfect DOS VGA 437 Win.woff") format("woff"), url("/webfonts/Perfect DOS VGA 437 Win.woff2") format("woff2"), url("/webfonts/Perfect DOS VGA 437 Win.ttf") format("ttf");
 }
 @font-face {
   font-family: "Reey";
   font-style: normal;
   font-weight: normal;
-  src: url("/webfonts/Reey-Regular.woff") format("woff");
-  src: url("/webfonts/Reey-Regular.woff2") format("woff2");
-  src: url("/webfonts/Reey-Regular.ttf") format("ttf");
+  src: url("/webfonts/Reey-Regular.woff") format("woff"), url("/webfonts/Reey-Regular.woff2") format("woff2"), url("/webfonts/Reey-Regular.ttf") format("ttf");
 }
 @font-face {
   font-family: "vipnagorgialla";
   font-style: italic;
   font-weight: bold;
-  src: url("/webfonts/vipnagorgialla bd it.woff") format("woff");
-  src: url("/webfonts/vipnagorgialla bd it.woff2") format("woff2");
-  src: url("/webfonts/vipnagorgialla bd it.ttf") format("ttf");
+  src: url("/webfonts/vipnagorgialla bd it.woff") format("woff"), url("/webfonts/vipnagorgialla bd it.woff2") format("woff2"), url("/webfonts/vipnagorgialla bd it.ttf") format("ttf");
 }
 @font-face {
   font-family: "vipnagorgialla";
   font-style: normal;
   font-weight: bold;
-  src: url("/webfonts/vipnagorgialla bd.woff") format("woff");
-  src: url("/webfonts/vipnagorgialla bd.woff2") format("woff2");
-  src: url("/webfonts/vipnagorgialla bd.ttf") format("ttf");
+  src: url("/webfonts/vipnagorgialla bd.woff") format("woff"), url("/webfonts/vipnagorgialla bd.woff2") format("woff2"), url("/webfonts/vipnagorgialla bd.ttf") format("ttf");
 }
 @font-face {
   font-family: "vipnagorgialla";
   font-style: italic;
   font-weight: normal;
-  src: url("/webfonts/vipnagorgialla rg it.woff") format("woff");
-  src: url("/webfonts/vipnagorgialla rg it.woff2") format("woff2");
-  src: url("/webfonts/vipnagorgialla rg it.ttf") format("ttf");
+  src: url("/webfonts/vipnagorgialla rg it.woff") format("woff"), url("/webfonts/vipnagorgialla rg it.woff2") format("woff2"), url("/webfonts/vipnagorgialla rg it.ttf") format("ttf");
 }
 @font-face {
   font-family: "vipnagorgialla";
   font-style: normal;
   font-weight: normal;
-  src: url("/webfonts/vipnagorgialla rg.woff") format("woff");
-  src: url("/webfonts/vipnagorgialla rg.woff2") format("woff2");
-  src: url("/webfonts/vipnagorgialla rg.ttf") format("ttf");
+  src: url("/webfonts/vipnagorgialla rg.woff") format("woff"), url("/webfonts/vipnagorgialla rg.woff2") format("woff2"), url("/webfonts/vipnagorgialla rg.ttf") format("ttf");
 }
 * {
   box-sizing: border-box;
@@ -170,7 +144,7 @@ body, html {
 
 .parent {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -192,7 +166,7 @@ body, html {
 }
 
 .no_scroll {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .disabled {
