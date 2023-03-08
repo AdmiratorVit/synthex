@@ -1,2 +1,0 @@
-"# synthex" 
-"# synthex" 
